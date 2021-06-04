@@ -1,6 +1,6 @@
 # TowerDefense
  
-## You can play the game on itch.io with this link.
+## You can play the game on itch.io with the link below.
 Link: https://labcoatfreak.itch.io/tower-defense
 
 ## Tutorial:
@@ -10,10 +10,10 @@ Link: https://labcoatfreak.itch.io/tower-defense
 * Gold can be used to buy towers and can be earned back when you destroy them.
 
 ## Controls:
-Movement: WASD
-Jump: Space
-Shoot: Left click
-Interacting with towers: E
+* Movement: WASD
+* Jump: Space
+* Shoot: Left click
+* Interacting with towers: E
 
 ## Towers:
 Fast: Has fast attack speed.

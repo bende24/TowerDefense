@@ -17,9 +17,12 @@ Link: https://labcoatfreak.itch.io/tower-defense
 
 ## Towers:
 Fast: Has fast attack speed.
-* DOT: Damages enemies overtime.
+* DOT: Damages enemies overtime.  
+
+
 Normal: Has normal attack speed.
 * Slow: Slows down enemies.
+
 Slow: Has slow attack speed.
 * Freeze: Freezes enemies.
 * AOE: Damages enemies in an area

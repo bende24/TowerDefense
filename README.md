@@ -1,7 +1,7 @@
 # TowerDefense
  
 ## You can play the game on itch.io with the link below.
-Link: https://labcoatfreak.itch.io/tower-defense
+Link: https://labcoatfreak.itch.io/tower-defense?password=tower-defense
 
 ## Tutorial:
 * You can create towers around torches.

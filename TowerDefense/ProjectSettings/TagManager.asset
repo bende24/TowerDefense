@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Base
+  - Ground
+  - TowerPlatform
+  - Tower
+  - Wall
+  - TowerMenu
+  - Canvas
+  - Spawn
+  - Ghost
+  - Skeleton
+  - Nightmare
+  - Enemy
+  - Hellbeast
+  - Hellhound
+  - Platform
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Enemy
+  - TowerPlatform
+  - Ground
+  - Background
+  - Tower
+  - Base
+  - Spawn
+  - Player
+  - Projectile
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 489856039
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Base
+    uniqueID: 1299549401
+    locked: 0
+  - name: Spawn
+    uniqueID: 3306975719
+    locked: 0
+  - name: Ground
+    uniqueID: 3460440179
+    locked: 0
+  - name: TowerPlatform
+    uniqueID: 1845872775
+    locked: 0
+  - name: Tower
+    uniqueID: 1001751823
+    locked: 0
+  - name: Entity
+    uniqueID: 1449123235
+    locked: 0
+  - name: UI
+    uniqueID: 2829517413
+    locked: 0

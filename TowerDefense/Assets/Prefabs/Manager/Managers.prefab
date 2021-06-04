@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5416840681183333002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5416840681183333006}
+  - component: {fileID: 5416840681183333007}
+  - component: {fileID: 5416840681183333004}
+  - component: {fileID: 5416840681183333005}
+  - component: {fileID: 3390950620124173082}
+  - component: {fileID: 3476354757172103331}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5416840681183333006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5416840681183333002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 7506706186376759378}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5416840681183333007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5416840681183333002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a936970742a926418ef51f26505a213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player:
+    id: 26
+    money: 100
+    arrow: {fileID: 0}
+    bowPos: {fileID: 0}
+    damage: 0
+    shootDelay: 0
+    lastShootTime: 0
+  Base: {fileID: 0}
+  enemies: []
+--- !u!114 &5416840681183333004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5416840681183333002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efa5c1d5a8453c74b8470df37edf11bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wave: 0
+  isWaveOver: 1
+  enemies:
+  - {fileID: 7334041152172417933, guid: 09ed938e27f9cf14c8259cc5afcd80b5, type: 3}
+  - {fileID: 7334041152172417933, guid: 7f2e43dfdec0f3947bdf0b9155fcc15d, type: 3}
+  - {fileID: 7334041152172417933, guid: 8738f67ee5c2a9245946b7e7c9a6db60, type: 3}
+  - {fileID: 7334041152172417933, guid: 05263398ad0719d44a4c7f2fb38adb44, type: 3}
+  - {fileID: 7334041152172417933, guid: 4f2350607748d49428fcfbf6b127e15b, type: 3}
+  spawnLocations: []
+--- !u!114 &5416840681183333005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5416840681183333002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62401abcdb550e64fb5ad54ec7d44682, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3390950620124173082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5416840681183333002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb94f655620ce274c9cb4e265d5d05a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normalTowerPrefab: {fileID: 8096845401559227186, guid: 2880cdfd7939395408f47cfd7b3e5536,
+    type: 3}
+  slowTowerPrefab: {fileID: 6086740388785759032, guid: 1ae509300fec4eb478ce74f98a914b64,
+    type: 3}
+  fastTowerPrefab: {fileID: 338925828114716567, guid: ec6a93a3b03e3e84480453b334c79459,
+    type: 3}
+--- !u!114 &3476354757172103331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5416840681183333002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da2cf52e3d6deb439f20a1060bf49b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Music
+    clip: {fileID: 8300000, guid: 224fa7444863d2e469bfc3900cc010a0, type: 3}
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 132b283d129548f4d9bd42f81a01b582, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: SelectButton
+    clip: {fileID: 8300000, guid: 951addecc72972445ada1d06a01cf72e, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Shoot
+    clip: {fileID: 8300000, guid: 2589d2abbf8d18a40a032f1c468ace5f, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Run
+    clip: {fileID: 8300000, guid: f8fe880e10be0ca468a553158d3264a3, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Hit
+    clip: {fileID: 8300000, guid: f83a9b9b859924846b7e8b8ab48e7132, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  isMusicOn: 1
+  isSFXOn: 1
+--- !u!1 &8654746091133403585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7506706186376759378}
+  - component: {fileID: 4478285081969571202}
+  m_Layer: 0
+  m_Name: Global Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7506706186376759378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8654746091133403585}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 5416840681183333006}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4478285081969571202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8654746091133403585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 4
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.3
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 279c321d00000000732042ce87c8056e0f85b53ba3dd5f566502a7a8d98c754d
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}

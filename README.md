@@ -25,4 +25,4 @@ Normal: Has normal attack speed.
 
 Slow: Has slow attack speed.
 * Freeze: Freezes enemies.
-* AOE: Damages enemies in an area
+* AOE: Damages enemies in an area.
